@@ -1,13 +1,8 @@
-name: 'Islandora Database Search'
+name: 'Islandora Lite Article View'
 type: module
-description: 'Search configurations for collections and facets'
+description: 'IIIF Article View'
 core: 8.x
 core_version_requirement: ^8 || ^9
 dependencies:
-  - search_api
-  - block
-  - views
-  - facets
-  - context
-  - islandora_defaults
-package: 'islandora'
+  - islandora_iiif
+package: 'islandora_lite'
